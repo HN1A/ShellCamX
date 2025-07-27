@@ -28,6 +28,9 @@
 Install dependencies:
 
 ```bash
+git clone https://github.com/HN1A/ShellCamX.git
+cd ShellCamX
+python ShellCamX.py
 pip install -r requirements.txt
 
 
@@ -65,5 +68,5 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/HN1A/ShellCamX.git
 cd ShellCamX
-
+python ShellCamX.py
 pip install -r requirements.txt
