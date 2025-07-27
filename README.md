@@ -1,4 +1,4 @@
-# ShellCamX 🔴
+# ShellCamX 🔴 1.0
 
 📸 **Advanced Social Engineering Tool** that automatically activates the victim’s webcam upon opening a web link, captures a photo, and sends it to Telegram along with IP and geolocation data.
 
@@ -15,7 +15,8 @@
 - Professional fake HTML interface to trick the victim.
 - Easy & fast CLI setup with **red-themed** hacker-style terminal.
 - No external dependencies – only uses `Flask`.
-
+- IOS devices (Safari) are not supported.
+- You have to run ngrok when you run the tool, open a second page and run it 
 ---
 
 ## 🧰 Requirements
@@ -36,7 +37,7 @@ pip install -r requirements.txt
 
 ############
 
-# ShellCamX 🔴
+# ShellCamX 🔴 1.0
 
 📸 أداة اختراق اجتماعي متقدمة تقوم بتشغيل كاميرا الضحية تلقائيًا عند فتح رابط ويب، وتلتقط صورة وترسلها إلى Telegram مع معلومات الـ IP والموقع الجغرافي.
 
@@ -53,6 +54,9 @@ pip install -r requirements.txt
 - واجهة HTML مزيفة احترافية.
 - إعداد سهل وسريع عبر واجهة CLI ملونة.
 - بدون أي اعتمادية خارجية مع Flask فقط.
+- لاتدعم اجهزه IOS(Safari)
+- عليك تشغيل ngrok عندما تقوم بتشغيل الادات تفتح صفحه ثانيه وتقوم بتشغيلها 
+
 
 ---
 
