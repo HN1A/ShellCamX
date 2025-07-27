@@ -63,4 +63,7 @@ pip install -r requirements.txt
 قم بتثبيت المتطلبات عبر:
 
 ```bash
+git clone https://github.com/HN1A/ShellCamX.git
+cd ShellCamX
+
 pip install -r requirements.txt
